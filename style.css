@@ -129,7 +129,7 @@ hr {
 .invalidLabel {
     color: hsl(0, 100%, 67%);
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
     main {
         max-width: 22rem;
     }

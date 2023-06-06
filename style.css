@@ -50,6 +50,7 @@ input{
     border-color: rgba(0, 0, 0, 0.25);
     font-size: 16px;
     font-weight: 800;
+    outline: none;
 }
 
 input:hover {
@@ -118,9 +119,16 @@ hr {
 }
 
 .invalid {
-    border: ;
+    border-color: hsl(0, 100%, 67%);
 }
 
+.invalid:hover {
+    border-color: hsl(0, 100%, 67%);
+}
+
+.invalidLabel {
+    color: hsl(0, 100%, 67%);
+}
 @media screen and (max-width: 1440px) {
     main {
         max-width: 22rem;
